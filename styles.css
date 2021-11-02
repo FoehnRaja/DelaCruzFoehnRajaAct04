@@ -1,0 +1,564 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{margin:0;
+padding:0;
+}
+body{
+    background-color:#ffbf5f ;
+    color:#000;
+    font-size:24px;
+    line-height: 1.6em;
+    margin:0;
+    font-family:'Quicksand';
+}
+header{
+    z-index:12;
+    position:fixed;
+    height:auto;
+    width:90%;
+    background:rgba(0,0,0,0.9);
+    margin-left:4.75%;
+    margin-top:0.5%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    
+}
+nav{
+    float:center;
+    line-height: 3.7rem;
+    text-align: center;
+}
+nav a{
+        color:#FBA92c;
+        
+        font-size: 1.5rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        margin-left:auto;
+        margin-right:auto;
+        border-style:solid;
+        transition:.5s;
+        justify-content: space-between; 
+}
+nav a:hover{
+    background-color: #09133e;
+    padding-top:.7rem;
+    padding-bottom:.7rem;
+    color: #FBA92c;
+}
+nav a.active{
+    background-color:#202264;
+    color: #fff;
+    padding-top:.7rem;
+    padding-bottom:0.7rem;
+}
+#navbar{
+    width:90%;
+    margin:0 auto;
+}
+
+.bodyboxhome{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:.7rem;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:10px;
+}
+.bodyboxskills{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:.7rem;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:.7rem;
+}
+.bodyboxhome img{
+    width:30%; 
+    height:auto;
+    float:left;
+    margin:.7rem;
+    margin-top:5%;
+}
+.bodyboxhome p{
+    line-height: 3rem;
+    font-size:1.5em;
+    margin-left:5%;
+    width:95%;
+    font-family:'Quicksand';
+
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-left:5%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    border-radius:10px;
+    color: white;
+  }
+  .fa-instagram {
+      margin-left:1%;
+    background: #e477c9;
+    border-radius: 10px;
+    color: white;
+  }
+.bodyboxabout{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:.7rem;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:.7rem;
+}
+.bodyboxabout img{
+    width:42%;
+    float:right;
+    margin:.7rem;
+    margin-top:2%;
+    margin-right:5%;
+}
+.bodyboxabout p{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:-1rem;
+    line-height:3rem;
+}
+
+.bodyboxskills img{
+    height:auto;
+    width:30%;
+    margin:.7rem;
+    margin-top:1.5rem;
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+.bodyboxskills p{
+    text-align:center;
+    font-size:2rem;
+    width:97%;
+    margin-bottom:-1rem;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.bodyboxskills a.link{
+    color:#202264;
+}
+.bodyboxskills a.visited{
+    color:black;
+}
+.bodyboxskills li{
+    font-size:25px;
+    margin-left:10%;
+    text-align: left;
+}
+.bodyboxskills hr{
+    border:3px dotted black;
+    margin-top:50
+}
+.progress{
+    width:40%;
+    height:20px;
+    background:#202264;
+    border-radius:5px;
+    overflow:hidden;
+    margin-top:-30px;
+    margin-bottom:10px;
+    margin-left:20rem;
+    border-color:black;
+    border-style:solid;
+}
+.progress_fill{
+    height:100%;
+    background:#FBA92c;
+}
+
+.bodyboxprojects{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:10px;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:10px;
+}
+
+.bodyboxprojects img{
+    width:30%; 
+    height:auto;
+    display:block;
+    margin:10px;
+    margin-top:25px; 
+    margin-left:auto;
+    margin-right:auto;
+}
+.bodyboxprojects p{
+    text-align:center;
+    font-size:2rem;
+    width:97%;
+    margin-top:-10px;
+    margin-left:15px;
+}
+
+.bodyboxAtlas{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:10px;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:10px;
+}
+
+.bodyboxAtlas img{
+    width:30%; 
+    height:auto;
+    margin:10px;
+    margin-top:75px;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline-flex;
+}
+.bodyboxAtlas p{
+    text-align:center;
+    font-size:2rem;
+    width:97%;
+}
+.bodyboxAtlas h1{
+    font-size:3rem;
+    text-align: center;
+}
+.bodyboxAtlas img.resize{
+    margin-left:5%;
+}
+.bodyboxAtlas img.size{
+    margin-left:20%;
+}
+.bodyboxTodo{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:10px;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:10px;
+}
+.bodyboxTodo img{
+    width:30%; 
+    height:auto;
+    margin:10px;
+    margin-top:75px; 
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.bodyboxTodo p{
+    text-align:center;
+    font-size:2rem;
+    width:97%;
+}
+.bodyboxTodo h1{
+    font-size:40px;
+    text-align: center;
+}
+.bodyboxContacts{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:.7rem;
+    padding-bottom:8rem;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    width:90%;
+    top:6.4rem;
+    margin-bottom:10px;
+}
+
+.bodyboxContacts img{
+    width:40%;
+    height: auto;
+    float:right;
+    margin-right:5%;
+    border-radius:50%;
+}
+.bodyboxContacts p{
+    text-align:center;
+    font-size:2rem;
+    width:97%;
+}
+@media screen and (max-width:700px){
+    .progress{
+        width:40%;
+        height:20px;
+        background:#202264;
+        border-radius:5px;
+        overflow:hidden;
+        margin-top:-30px;
+        margin-bottom:10px;
+        margin-left:55%;
+        border-color:black;
+        border-style:solid;
+        }
+    .bodyboxhome{
+        margin-top:6%;
+        margin-right:4.75;
+    }
+    .bodyboxhome img{
+        width:70%;
+        height:40%;
+        margin-left:15%;
+    }
+    header{
+        z-index:12;
+        position:fixed;
+        height:auto;
+        width:100%;
+        background:rgba(0,0,0,0.9);
+        margin-top:0.5%;
+        padding-top:0.5%;
+        padding-bottom:0.5%;
+        margin-left:0;
+        
+    }
+    nav{
+        float:center;
+        line-height: 3.7rem;
+        text-align: center;
+    }
+    nav a{
+            color:#FBA92c;
+            
+            font-size: 1.5rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            margin-left:auto;
+            margin-right:auto;
+            border-style:solid;
+            transition:.5s;
+            justify-content: space-between; 
+    }
+    nav a:hover{
+        background-color: #09133e;
+        padding-top:.7rem;
+        padding-bottom:.7rem;
+        color: #FBA92c;
+    }
+    nav a.active{
+        background-color:#202264;
+        color: #fff;
+        padding-top:.7rem;
+        padding-bottom:0.7rem;
+    }
+    #navbar{
+        width:90%;
+        margin:0 auto;
+    }
+.bodyboxabout{
+    margin-top:6%;
+    margin-right:5%;
+    }
+.bodyboxabout img{
+    width:70%;
+    height:40%;
+    margin-right:13%;
+}
+.progress{
+    width:40%;
+    height:20px;
+    background:#202264;
+    border-radius:5px;
+    overflow:hidden;
+    margin-top:-30px;
+    margin-bottom:10px;
+    margin-left:55%;
+    border-color:black;
+    border-style:solid;
+    }
+.bodyboxskills li{
+  font-size:1rem;
+  margin-left:2rem;
+}
+.bodyboxskills{
+    margin-top:9rem;
+}
+.bodyboxskills p{
+    font-size: 1rem;
+}
+.bodyboxprojects{
+    margin-top:6%;
+    margin-right:5%;
+}
+.bodyboxprojects p{
+    margin-left:-1%;
+}
+.bodyboxAtlas{
+    margin-top:6%;
+    margin-right:5%;
+}
+.bodyboxAtlas img{
+    width:70%;
+    margin-left:15%;
+    margin-top:1%;
+}
+.bodyboxAtlas img.resize{
+    margin-left:15%;
+}
+.bodyboxAtlas img.size{
+    margin-left:15%;
+}
+.bodyboxContacts{
+    margin-top:6%;
+    margin-right:5%;
+}
+.bodyboxContacts img{
+    width:60%;
+    height:50%;
+    margin-left:20%;
+    float:none;
+}
+.bodyboxContacts p{
+    font-size:18px;
+}
+.bodyboxAtlas h1{
+    font-size:20px;
+    text-align: center;
+}
+.bodyboxTodo{
+    margin-top:9rem;
+}
+.bodyboxTodo img{
+    width:70%;
+    margin-left:15%;
+    margin-top:1%;
+}
+.bodyboxTodo h1{
+    font-size:30px;
+    text-align: center;
+}
+}
+@media screen and (min-width:700px){
+    header{
+        z-index:12;
+        position:fixed;
+        height:auto;
+        width:90%;
+        padding-left:0;
+        background:rgba(0,0,0,0.9);
+        margin-left:4.75%;
+        margin-top:0.5%;
+        padding-top:0.5%;
+        padding-bottom:0.5%;
+        
+    }
+}
+@media screen and (min-width:1600px){
+.bodyboxhome{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:.7rem;
+    padding-bottom:7%;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    line-height: 1.5rem;
+    width:90%;
+    top:6rem;
+    margin-bottom:10px;
+}
+.bodyboxhome img{
+    margin-top:0;
+    width:auto;
+    height:30%;  
+    float:left;
+    margin:1%;
+
+}
+.bodyboxabout{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    padding-top:.7rem;
+    padding-bottom:7%;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    line-height: 1.5rem;
+    width:90%;
+    top:6rem;
+    margin-bottom:10px;
+}
+.bodyboxabout img{
+    width:auto;
+    height:50%;  
+    float:right;
+    margin:3rem;
+}
+.bodyboxContacts{
+    border-style:solid;
+    border-color:black;
+    position:absolute;
+    background-color:rgba(2,2,2,0.2);
+    height:auto;
+    margin-left:4.5%;
+    margin-right:4.5%;
+    line-height: 1.5rem;
+    width:90%;
+    top:6rem;
+}
+.bodyboxContacts img{
+    width:auto;
+    height:50%;  
+    float:right;
+    margin-left:10rem;
+    margin-top:5rem;
+
+}
+.bodyboxContacts p{
+    margin:2%;
+
+}
+
+
+}
